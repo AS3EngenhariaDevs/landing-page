@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-lime: #ccff0c;
+  --color-ink: #000000;
+  --color-paper: #ffffff;
+  --color-gray: #c8c8c8;
+  --color-gray-soft: #f3f3f3;
+  --color-ink-soft: #5c5c5f;
+
+  --radius-sm: 14px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+
+  --shadow-soft: 0 10px 30px rgba(0,0,0,0.08);
+  --shadow-hover: 0 16px 40px rgba(0,0,0,0.14);
+
+  --font-sans: "Poppins", sans-serif;
+}
+
+:root {
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  background: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; }
+button, a { font-family: inherit; }
+a { color: inherit; }
+* { box-sizing: border-box; }
+
+/* Highlight span inside h1 */
+.hl {
+  background: linear-gradient(to top, #ccff0c 40%, transparent 40%);
+  padding: 0 3px;
+  border-radius: 4px;
+}
+
+/* Btn arrow hover */
+.btn-arrow { transition: transform 0.18s ease; }
+.group:hover .btn-arrow { transform: translateX(4px); }
+
+/* nth-child lime step */
+.step-lime .step-num {
+  background: #ccff0c !important;
+  color: #000 !important;
+}
