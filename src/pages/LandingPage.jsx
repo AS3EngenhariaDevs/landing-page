@@ -11,8 +11,26 @@ import { ProductsSection } from "../components/productsSection";
 import CTA from "../components/CTA";
 import Footer from "../components/Footer";
 import { points, processSteps, sectors } from "../data/landingPage";
+import { useRef, useState } from "react";
+import { Eye } from "lucide-react";
+import PointDetail from "../components/PointDetail";
 
 export default function LandingPage() {
+  const [selectedPoint, setSelectedPoint] = useState(null);
+  const detailRef = useRef(null);
+
+  const handleSelectPoint = (point) => {
+    const isSameSelected = selectedPoint?.title === point.title;
+    setSelectedPoint(isSameSelected ? null : point);
+
+    // Só rola até o painel quando um novo ponto é aberto (não ao fechar)
+    if (!isSameSelected) {
+      requestAnimationFrame(() => {
+        detailRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    }
+  };
+
   return (
     <div className="font-sans text-ink bg-white overflow-x-hidden">
       <Header />
@@ -34,12 +52,39 @@ export default function LandingPage() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
               {points.map((point) => (
-                <PointCard key={point.title} {...point} />
+                <button
+                  key={point.title}
+                  onClick={() => handleSelectPoint(point)}
+                  className={`group relative text-left w-full rounded-2xl transition ${
+                    selectedPoint?.title === point.title
+                      ? "ring-2 ring-neutral-800"
+                      : ""
+                  }`}
+                >
+                  <PointCard {...point} />
+
+                  {/* Overlay de hover: "Veja onde o produto se aplica" */}
+                  <div className="pointer-events-none absolute inset-0 flex items-center justify-center gap-2 rounded-2xl bg-white/90 opacity-0 backdrop-blur-[1px] transition-opacity duration-200 group-hover:opacity-100">
+                    <Eye className="h-4 w-4 text-neutral-800" />
+                    <span className="text-sm font-medium text-neutral-800">
+                      Veja onde o produto se aplica
+                    </span>
+                  </div>
+                </button>
               ))}
             </div>
+
+            {/* Painel inline abaixo da grade */}
+            <PointDetail
+              ref={detailRef}
+              point={selectedPoint}
+              onClose={() => setSelectedPoint(null)}
+            />
           </div>
         </section>
 
+        
+        {/* <ProductsSection /> */}
         {/* Metodologia */}
         <section id="como-funciona" className="py-[88px]">
           <div className="bg-gray-soft rounded-[28px] max-w-[1240px] mx-auto">
@@ -61,6 +106,7 @@ export default function LandingPage() {
             </div>
           </div>
         </section>
+        <TrustedClientsSection />
 
         {/* Setores */}
         <section id="setores" className="py-[88px]">
@@ -83,9 +129,7 @@ export default function LandingPage() {
         </section>
 
         <StatsBand />
-        <UseCasesSection />
-        <TrustedClientsSection />
-        <ProductsSection />
+
         <CTA />
       </main>
       <Footer />

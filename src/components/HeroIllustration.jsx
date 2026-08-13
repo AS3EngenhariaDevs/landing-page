@@ -4,7 +4,7 @@ export default function HeroIllustration() {
   return (
     <img
       src={foto}
-      alt="Gateway Micromeros"
+      alt="Gateway Microméros"
       className="block w-full h-auto"
     />
   );

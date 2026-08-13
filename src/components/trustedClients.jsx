@@ -1,21 +1,21 @@
 import { useRef, useEffect } from "react";
 
-import plazaLogo from "../assets/logos/plaza.png";
+import metropolitanoLogo from "../assets/logos/metropolitano.png";
 import ambevLogo from "../assets/logos/ambev.png";
 import copadorLogo from "../assets/logos/copador.png";
 import metrorioLogo from "../assets/logos/metrorio.png";
 import fiocruzLogo from "../assets/logos/fiocruz.png";
-import alteraLogo from "../assets/logos/altera.png";
+import labtsLogo from "../assets/logos/labts.png";
 import quakerLogo from "../assets/logos/quaker.png";
 import autonLogo from "../assets/logos/auton.png";
 
 const clients = [
-  { name: "Plaza",           logo: plazaLogo },
+  { name: "Shopping Metropolitano",   logo: metropolitanoLogo },
   { name: "Ambev",           logo: ambevLogo },
   { name: "Copa D'Or",       logo: copadorLogo },
   { name: "Metrô Rio",       logo: metrorioLogo },
   { name: "Fiocruz",         logo: fiocruzLogo },
-  { name: "Altera",          logo: alteraLogo },
+  { name: "LabTS",          logo: labtsLogo },
   { name: "Quaker Houghton", logo: quakerLogo },
   { name: "Auton",           logo: autonLogo },
 ];

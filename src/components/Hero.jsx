@@ -12,8 +12,8 @@ export default function Hero() {
           </span>
 
           <h1 className="font-bold tracking-[-0.01em] leading-[1.12] mt-0 text-[clamp(34px,4vw,54px)] max-w-[560px] mt-4">
-            Da painel elétrico ao motor, cobrimos{" "}
-            <span className="hl">todo ponto</span> do seu ativo.
+            Da painel elétrico ao motor industrial, cobrimos{" "}
+            <span className="hl">todos os pontos</span> do seu ativo.
           </h1>
 
           <p className="mt-[22px] text-[16.5px] leading-[1.7] text-ink-soft max-w-[460px]">
@@ -37,8 +37,8 @@ export default function Hero() {
               <span className="text-[12.5px] text-ink-soft">Dispositivos IoT ativos</span>
             </div>
             <div>
-              <b className="block text-2xl font-extrabold">4</b>
-              <span className="text-[12.5px] text-ink-soft">Utilidades monitoradas</span>
+              <b className="block text-2xl font-extrabold">8+</b>
+              <span className="text-[12.5px] text-ink-soft">Ativos medidos</span>
             </div>
             <div>
               <b className="block text-2xl font-extrabold">24/7</b>
@@ -49,14 +49,14 @@ export default function Hero() {
 
         <div className="bg-gray-soft rounded-[28px] p-7 shadow-soft relative">
           <div className="flex justify-between items-center mb-1.5">
-            <h4 className="text-[17px] font-bold m-0">Gateway Micromeros</h4>
+            <h4 className="text-[17px] font-bold m-0">Gateway Microméros</h4>
             <span className="text-xs text-ink-soft">GTW-LR900</span>
           </div>
 
           <HeroIllustration />
 
           <div className="mt-2.5 bg-white rounded-[14px] px-[18px] py-3.5 text-[13px] leading-[1.6] text-ink-soft shadow-soft">
-            O <b className="text-ink">gateway Micromeros</b> conecta sensores de água, gás e
+            O <b className="text-ink">gateway Microméros</b> conecta sensores de água, gás e
             energia via <b className="text-ink">LoRaWAN, MQTT e RS485</b> — entregando dados
             direto para a plataforma na nuvem.
           </div>

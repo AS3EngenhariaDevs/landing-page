@@ -36,7 +36,7 @@ export default function Footer() {
 
         <div className="flex justify-between pt-5 text-[12px] text-ink-soft flex-wrap gap-2.5">
           <span>© 2026 AS3 Engenharia — todos os direitos reservados</span>
-          <span>Plataforma Micromeros</span>
+          <span>Plataforma Microméros</span>
         </div>
       </div>
     </footer>
