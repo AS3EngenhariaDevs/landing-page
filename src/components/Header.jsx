@@ -14,8 +14,8 @@ export default function Header() {
         </div>
 
         <a
-          href="#contato"
-          className="hidden sm:inline-flex group items-center justify-center gap-2.5 font-semibold text-[15px] px-[26px] py-[15px] rounded-full bg-ink text-paper shadow-soft hover:bg-lime hover:text-ink hover:-translate-y-[3px] hover:shadow-hover transition-all duration-[180ms] no-underline whitespace-nowrap"
+        href="#contato"
+          className="hidden sm:inline-flex group items-center justify-center gap-2.5 font-semibold text-[15px] px-[26px] py-[15px] rounded-full bg-ink text-white shadow-soft hover:bg-lime hover:text-ink hover:-translate-y-[3px] hover:shadow-hover transition-all duration-[180ms] no-underline whitespace-nowrap"
         >
           Fale com um especialista
         </a>

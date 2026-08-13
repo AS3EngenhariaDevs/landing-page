@@ -39,7 +39,7 @@ const PointDetail = forwardRef(function PointDetail({ point, onClose }, ref) {
           <img
             src={point.image}
             alt={point.title}
-            className="absolute inset-0 h-full w-full object-contain p-4 md:p-6"
+            className="absolute inset-0 h-full w-full object-contain"
             loading="lazy"
             decoding="async"
           />

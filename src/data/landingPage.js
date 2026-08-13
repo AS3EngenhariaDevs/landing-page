@@ -14,9 +14,14 @@ import {
   FlaskConical,
   Cog
 } from "lucide-react";
-import process from '../assets/images/points/process.jpg'
+import process from '../assets/images/points/process.png'
 import level from '../assets/images/points/level.png'
 import flow from '../assets/images/points/flow.png'
+import power from '../assets/images/points/power.png'
+import climate from '../assets/images/points/climate.png'
+import machine from '../assets/images/points/machine.png'
+import meter from '../assets/images/points/meter.png'
+
 
 export const points = [
   {
@@ -24,7 +29,7 @@ export const points = [
     title: "Microméros Power",
     desc: "Corrente, tensão e demanda em quadros, subestações e circuitos críticos.",
     unit: "kWh",
-    image: process,
+    image: power,
     applicableSectors: [
       "Shopping",
       "Condomínios Residenciais",
@@ -79,7 +84,7 @@ export const points = [
     title: "Microméros Meter",
     desc: "Medição de vazão e pressão em linhas de gás natural e GLP industrial.",
     unit: "m³",
-    image: "../assets/images/points/process.jpg",
+    image: meter,
     applicableSectors: ["Indústria"],
   },
   {
@@ -87,7 +92,7 @@ export const points = [
     title: "Microméros Machine",
     desc: "Monitoramento de motores, máquinas e equipamentos industriais, acompanhando rotação, vibração e desempenho operacional.",
     unit: "RPM",
-    image: process,
+    image: machine,
     applicableSectors: [
       "Shopping",
       "Condomínios Residenciais",
@@ -119,7 +124,7 @@ export const points = [
     title: "Microméros Climate",
     desc: "Monitoramento de temperatura de temperatura e umidade de áreas.",
     unit: "C°",
-    image: process,
+    image: climate,
     applicableSectors: [
       "Shopping",
       "Condomínios Residenciais",

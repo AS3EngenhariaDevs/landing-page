@@ -6,7 +6,7 @@ export default function PointCard({ icon: Icon, title, desc, unit }) {
       </div>
       <h3 className="text-[17.5px] font-bold m-0 mb-2">{title}</h3>
       <p className="text-[13.6px] text-ink-soft leading-[1.55] m-0">{desc}</p>
-      <span className="inline-block mt-4 text-[11.5px] font-semibold bg-gray-soft px-3 py-[5px] rounded-full text-ink-soft">{unit}</span>
+      <span className="inline-block mt-4 text-[11.5px] font-semibold bg-gray-soft px-3 py-[5px] rounded-full text-ink-soft transition-colors duration-200 group-hover:bg-lime group-hover:text-ink">Onde se aplica</span>
     </div>
   );
 }

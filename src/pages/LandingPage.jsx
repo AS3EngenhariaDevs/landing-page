@@ -12,7 +12,6 @@ import CTA from "../components/CTA";
 import Footer from "../components/Footer";
 import { points, processSteps, sectors } from "../data/landingPage";
 import { useRef, useState } from "react";
-import { Eye } from "lucide-react";
 import PointDetail from "../components/PointDetail";
 
 export default function LandingPage() {
@@ -62,14 +61,6 @@ export default function LandingPage() {
                   }`}
                 >
                   <PointCard {...point} />
-
-                  {/* Overlay de hover: "Veja onde o produto se aplica" */}
-                  <div className="pointer-events-none absolute inset-0 flex items-center justify-center gap-2 rounded-2xl bg-white/90 opacity-0 backdrop-blur-[1px] transition-opacity duration-200 group-hover:opacity-100">
-                    <Eye className="h-4 w-4 text-neutral-800" />
-                    <span className="text-sm font-medium text-neutral-800">
-                      Veja onde o produto se aplica
-                    </span>
-                  </div>
                 </button>
               ))}
             </div>
