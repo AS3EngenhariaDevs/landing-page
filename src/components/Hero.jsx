@@ -33,11 +33,11 @@ export default function Hero() {
 
           <div className="flex gap-[30px] mt-12 flex-wrap">
             <div>
-              <b className="block text-2xl font-extrabold">45+</b>
-              <span className="text-[12.5px] text-ink-soft">Dispositivos IoT ativos</span>
+              <b className="block text-2xl font-extrabold">500+</b>
+              <span className="text-[12.5px] text-ink-soft">Dispositivos IoT instalados</span>
             </div>
             <div>
-              <b className="block text-2xl font-extrabold">8+</b>
+              <b className="block text-2xl font-extrabold">20+</b>
               <span className="text-[12.5px] text-ink-soft">Ativos medidos</span>
             </div>
             <div>
@@ -49,14 +49,14 @@ export default function Hero() {
 
         <div className="bg-gray-soft rounded-[28px] p-7 shadow-soft relative">
           <div className="flex justify-between items-center mb-1.5">
-            <h4 className="text-[17px] font-bold m-0">Gateway Microméros</h4>
-            <span className="text-xs text-ink-soft">GTW-LR900</span>
+            <h4 className="text-[17px] font-bold m-0">Dispositivo Microméros</h4>
+            <span className="text-xs text-ink-soft">Iot Sensor</span>
           </div>
 
           <HeroIllustration />
 
           <div className="mt-2.5 bg-white rounded-[14px] px-[18px] py-3.5 text-[13px] leading-[1.6] text-ink-soft shadow-soft">
-            O <b className="text-ink">gateway Microméros</b> conecta sensores de água, gás e
+            Os <b className="text-ink">dispositivos IoT Microméros</b> conectam sensores de água, gás e
             energia via <b className="text-ink">LoRaWAN, MQTT e RS485</b> — entregando dados
             direto para a plataforma na nuvem.
           </div>

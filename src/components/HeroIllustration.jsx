@@ -1,11 +1,11 @@
-import foto from "../assets/image.png";
+import foto from "../assets/iot.png";
 
 export default function HeroIllustration() {
   return (
     <img
       src={foto}
       alt="Gateway Microméros"
-      className="block w-full h-auto"
+      className="block w-auto h-auto"
     />
   );
 }

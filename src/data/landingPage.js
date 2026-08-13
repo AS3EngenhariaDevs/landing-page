@@ -85,7 +85,7 @@ export const points = [
     desc: "Medição de vazão e pressão em linhas de gás natural e GLP industrial.",
     unit: "m³",
     image: meter,
-    applicableSectors: ["Indústria"],
+    applicableSectors: ["Indústria", "condomínios residenciais e comerciais", "Shoppings", "Lojas", "Restaurantes", "Postos de Gasolina", "Estações ferroviárias"],
   },
   {
     icon: Cog,
@@ -179,7 +179,7 @@ export const sectors = [
   },
   {
     tag: "/ Utilities",
-    title: "Concessionárias",
+    title: "Hospitais",
     desc: "Telemetria de rede para distribuição de água, gás e energia.",
   },
   {
@@ -195,10 +195,10 @@ export const sectors = [
 ];
 
 export const stats = [
-  ["45+", "Dispositivos IoT conectados"],
-  ["8+", "Ativos monitorados em paralelo"],
-  ["24/7", "Telemetria e alertas em tempo real"],
-  ["99.9%", "Disponibilidade da plataforma"],
+  ["+400k", "Em custos economizados"],
+  ["+400 HH", "Economizadas em operações"],
+  ["+20K kg", "De CO₂ evitados"],
+  ["+500K kWh", "Economizados em energia"],
 ];
 
 export const companies = {

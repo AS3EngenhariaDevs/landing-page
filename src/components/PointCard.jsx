@@ -1,6 +1,6 @@
 export default function PointCard({ icon: Icon, title, desc, unit }) {
   return (
-    <div className="group bg-white border border-gray-soft rounded-[20px] p-7 transition-all duration-200 hover:-translate-y-1.5 hover:shadow-hover hover:border-transparent">
+    <div className="group bg-white border border-gray-soft rounded-[20px] p-7 transition-all duration-200 hover:-translate-y-1.5 hover:shadow-hover hover:border-transparent cursor-pointer">
       <div className="w-[54px] h-[54px] rounded-2xl bg-gray-soft flex items-center justify-center mb-5 transition-colors duration-200 group-hover:bg-lime">
         <Icon size={24} />
       </div>

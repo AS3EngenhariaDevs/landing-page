@@ -28,7 +28,7 @@ export default function Footer() {
             </div>
             <div>
               <h4 className="text-[12px] font-semibold uppercase tracking-[0.05em] text-ink-soft m-0 mb-3.5">Contato</h4>
-              <a href="mailto:contato@as3engenharia.com.br" className="block text-[13.8px] mb-[9px] text-ink-soft no-underline hover:text-ink transition-colors">contato@as3engenharia.com.br</a>
+              <a href="mailto:comercial@as3group.com" className="block text-[13.8px] mb-[9px] text-ink-soft no-underline hover:text-ink transition-colors">comercial@as3group.com</a>
               <a href="#" className="block text-[13.8px] mb-[9px] text-ink-soft no-underline hover:text-ink transition-colors">Rio de Janeiro, RJ</a>
             </div>
           </div>

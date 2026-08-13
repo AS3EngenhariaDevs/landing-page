@@ -21,7 +21,8 @@ export default function CTA() {
 
         <div className="flex gap-3.5 justify-center flex-wrap">
           <a
-            href="mailto:contato@as3engenharia.com.br"
+            href="mailto:comercial@as3group.com
+"
             className="group inline-flex items-center justify-center gap-2.5 font-semibold text-[15px] px-[26px] py-[15px] rounded-full bg-ink text-paper shadow-soft hover:bg-lime hover:text-ink hover:-translate-y-[3px] hover:shadow-hover transition-all duration-[180ms] no-underline whitespace-nowrap"
           >
             Solicitar visita técnica
