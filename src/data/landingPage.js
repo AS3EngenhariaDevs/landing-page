@@ -74,7 +74,7 @@ export const points = [
     {
     icon: Flame,
     title: "Microméros Level",
-    desc: "Medição de nível para líquidos ",
+    desc: "Medição de nível para líquidos.",
     unit: "m³ ou L",
     image: level,
     applicableSectors: ["Indústria"],
@@ -82,7 +82,15 @@ export const points = [
   {
     icon: Flame,
     title: "Microméros Meter",
-    desc: "Medição de vazão e pressão em linhas de gás natural e GLP industrial.",
+    desc: "Monitoramento de instrumentação e ativos físicas e químicas por sinais 4–20 mA e comunicação Modbus.",
+    unit: "m³, μS e outra unidades",
+    image: meter,
+    applicableSectors: ["Indústria", "condomínios residenciais e comerciais", "Shoppings", "Lojas", "Restaurantes", "Postos de Gasolina", "Estações ferroviárias"],
+  },
+  {
+    icon: Flame,
+    title: "Microméros Flux",
+    desc: "Monitoramento de consumo de gás",
     unit: "m³",
     image: meter,
     applicableSectors: ["Indústria", "condomínios residenciais e comerciais", "Shoppings", "Lojas", "Restaurantes", "Postos de Gasolina", "Estações ferroviárias"],
@@ -122,7 +130,7 @@ export const points = [
   {
     icon: ThermometerIcon,
     title: "Microméros Climate",
-    desc: "Monitoramento de temperatura de temperatura e umidade de áreas.",
+    desc: "Monitoramento de temperatura e umidade de áreas.",
     unit: "C°",
     image: climate,
     applicableSectors: [

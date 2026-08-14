@@ -1,6 +1,6 @@
 # AS3 Micromeros
 
-Landing page da AS3 Engenharia / Plataforma Micromeros.
+Landing page da AS3 / Plataforma Micromeros.
 
 ## Requisitos
 

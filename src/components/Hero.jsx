@@ -17,7 +17,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-[22px] text-[16.5px] leading-[1.7] text-ink-soft max-w-[460px]">
-            A AS3 Engenharia projeta, instala e opera a cadeia completa de
+            A AS3 projeta, instala e opera a cadeia completa de
             monitoramento do sensor até a nuvem para todos os tipos ativos em ambientes industriais.
           </p>
 
@@ -62,6 +62,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-    </section>
+    </section> 
   );
 }

@@ -17,7 +17,7 @@ import PointDetail from "../components/PointDetail";
 export default function LandingPage() {
   const [selectedPoint, setSelectedPoint] = useState(null);
   const detailRef = useRef(null);
-
+  const cardsRef = useRef(null);
   const handleSelectPoint = (point) => {
     const isSameSelected = selectedPoint?.title === point.title;
     setSelectedPoint(isSameSelected ? null : point);
@@ -36,43 +36,57 @@ export default function LandingPage() {
       <main>
         <Hero />
 
-        {/* Pontos de atuação */}
-        <section id="pontos" className="py-[88px]">
-          <div className="w-full max-w-[1240px] mx-auto px-8">
-            <SectionHeader
-              eyebrow="COBERTURA"
-              title="Um ponto de atuação para cada tipo de ativo."
-            >
-              Cada utilidade tem sua própria física, seus próprios protocolos
-              e suas próprias falhas. Por isso a AS3 não entrega um sensor
-              genérico — entrega instrumentação específica para cada ponto de
-              medição da sua planta.
-            </SectionHeader>
+      {/* Pontos de atuação */}
+      <section id="pontos" className="py-[88px]">
+        <div className="w-full max-w-[1240px] mx-auto px-8">
+          <SectionHeader
+            eyebrow="COBERTURA"
+            title="Um ponto de atuação para cada tipo de ativo."
+          >
+            Cada utilidade tem sua própria física, seus próprios protocolos
+            e suas próprias falhas. Por isso a AS3 não entrega um sensor
+            genérico — entrega instrumentação específica para cada ponto de
+            medição da sua planta.
+          </SectionHeader>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {points.map((point) => (
-                <button
-                  key={point.title}
-                  onClick={() => handleSelectPoint(point)}
-                  className={`group relative text-left w-full rounded-2xl transition ${
-                    selectedPoint?.title === point.title
-                      ? "ring-2 ring-neutral-800"
-                      : ""
-                  }`}
-                >
-                  <PointCard {...point} />
-                </button>
-              ))}
-            </div>
-
-            {/* Painel inline abaixo da grade */}
-            <PointDetail
-              ref={detailRef}
-              point={selectedPoint}
-              onClose={() => setSelectedPoint(null)}
-            />
+          {/* Referência para a área dos cards */}
+          <div
+            ref={cardsRef}
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 scroll-mt-24"
+          >
+            {points.map((point) => (
+              <button
+                key={point.title}
+                onClick={() => handleSelectPoint(point)}
+                className={`group relative text-left w-full rounded-2xl transition ${
+                  selectedPoint?.title === point.title
+                    ? "ring-2 ring-neutral-800"
+                    : ""
+                }`}
+              >
+                <PointCard {...point} />
+              </button>
+            ))}
           </div>
-        </section>
+
+          {/* Painel inline abaixo da grade */}
+          <PointDetail
+            ref={detailRef}
+            point={selectedPoint}
+            onClose={() => {
+              setSelectedPoint(null);
+
+              // Aguarda o detalhe desaparecer antes de voltar aos cards
+              setTimeout(() => {
+                cardsRef.current?.scrollIntoView({
+                  behavior: "smooth",
+                  block: "start",
+                });
+              }, 50);
+            }}
+          />
+        </div>
+      </section>
 
         
         {/* <ProductsSection /> */}
