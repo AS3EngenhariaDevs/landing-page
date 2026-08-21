@@ -11,6 +11,9 @@ export default function Footer() {
               Engenharia e plataforma de monitoramento IoT para ativos
               industriais. Rio de Janeiro, RJ.
             </p>
+            <p className="max-w-[280px] text-ink-soft text-[13.5px] mt-3.5 leading-[1.6]">
+              CNPJ: 24995657000102
+            </p>
           </div>
 
           <div className="flex gap-16 flex-wrap">

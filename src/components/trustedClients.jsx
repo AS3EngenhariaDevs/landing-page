@@ -69,12 +69,12 @@ export function TrustedClientsSection() {
           {items.map((client, i) => (
             <div
               key={i}
-              className="flex items-center justify-center bg-white border border-gray-100 rounded-[20px] px-12 py-6 h-28 min-w-[220px] shrink-0 shadow-soft"
+              className="flex items-center justify-center bg-white border grayscale hover:grayscale-0 border-gray-100 rounded-[20px] px-12 py-6 h-28 min-w-[220px] shrink-0 shadow-soft opacity-60 hover:opacity-100 transition-all duration-300"
             >
               <img
                 src={client.logo}
                 alt={client.name}
-                className="max-h-16 max-w-[170px] object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
+                className="max-h-16 max-w-[170px] object-contain"
                 onError={(e) => {
                   e.target.style.display = "none";
                   e.target.nextSibling.style.display = "block";

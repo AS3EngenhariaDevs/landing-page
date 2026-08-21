@@ -56,9 +56,8 @@ export default function Hero() {
           <HeroIllustration />
 
           <div className="mt-2.5 bg-white rounded-[14px] px-[18px] py-3.5 text-[13px] leading-[1.6] text-ink-soft shadow-soft">
-            Os <b className="text-ink">dispositivos IoT Microméros</b> conectam sensores de água, gás e
-            energia via <b className="text-ink">LoRaWAN, MQTT e RS485</b> — entregando dados
-            direto para a plataforma na nuvem.
+            Os <b className="text-ink">Dispositivos IoT Microméros</b> conectam sensores de energia, água e gás e transformam suas medições em<b className="text-ink"> dados em tempo real </b>
+            diretamente em nossa plataforma na nuvem.
           </div>
         </div>
       </div>

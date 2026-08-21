@@ -3,7 +3,6 @@ import {
   Flame,
   Zap,
   Thermometer,
-  Wind,
   Gauge,
   Radio,
   CloudCog,
@@ -12,145 +11,18 @@ import {
   ThermometerIcon,
   Waves,
   FlaskConical,
-  Cog
+  Cog,
+  BatteryFull
 } from "lucide-react";
 import process from '../assets/images/points/process.png'
 import level from '../assets/images/points/level.png'
 import flow from '../assets/images/points/flow.png'
-import power from '../assets/images/points/power.png'
-import climate from '../assets/images/points/climate.png'
+import power from '../assets/images/points/power.jpeg'
+import climate from '../assets/images/points/climate.jpeg'
 import machine from '../assets/images/points/machine.png'
 import meter from '../assets/images/points/meter.png'
+import Flux from '../assets/images/points/flux.jpeg'
 
-
-export const points = [
-  {
-    icon: Zap,
-    title: "Microméros Power",
-    desc: "Corrente, tensão e demanda em quadros, subestações e circuitos críticos.",
-    unit: "kWh",
-    image: power,
-    applicableSectors: [
-      "Shopping",
-      "Condomínios Residenciais",
-      "Prédios Comerciais",
-      "Hospitais",
-      "Escolas",
-      "Universidades",
-      "Laboratórios",
-      "Indústria",
-      "Saneamento — ETA / ETE",
-      "Infraestrutura — Metrô",
-      "Aeroportos",
-      "Rodovias / Concessionárias",
-      "Túneis",
-      "Portos",
-      "Data Centers / CPDs",
-    ],
-  },
-  {
-    icon: Droplet,
-    title: "Microméros Flow",
-    desc: "Vazão, pressão e consumo em redes hidráulicas, ETAs e pontos de captação.",
-    unit: "m³ ou L",
-    image: flow,
-    applicableSectors: [
-      "Shopping",
-      "Condomínios Residenciais",
-      "Prédios Comerciais",
-      "Hospitais",
-      "Escolas",
-      "Universidades",
-      "Laboratórios",
-      "Indústria",
-      "Saneamento — ETA / ETE",
-      "Infraestrutura — Metrô",
-      "Aeroportos",
-      "Rodovias / Concessionárias",
-      "Portos",
-      "Data Centers / CPDs",
-    ],
-  },
-    {
-    icon: Flame,
-    title: "Microméros Level",
-    desc: "Medição de nível para líquidos.",
-    unit: "m³ ou L",
-    image: level,
-    applicableSectors: ["Indústria"],
-  },
-  {
-    icon: Flame,
-    title: "Microméros Meter",
-    desc: "Monitoramento de instrumentação e ativos físicas e químicas por sinais 4–20 mA e comunicação Modbus.",
-    unit: "m³, μS e outra unidades",
-    image: meter,
-    applicableSectors: ["Indústria", "condomínios residenciais e comerciais", "Shoppings", "Lojas", "Restaurantes", "Postos de Gasolina", "Estações ferroviárias"],
-  },
-  {
-    icon: Flame,
-    title: "Microméros Flux",
-    desc: "Monitoramento de consumo de gás",
-    unit: "m³",
-    image: meter,
-    applicableSectors: ["Indústria", "condomínios residenciais e comerciais", "Shoppings", "Lojas", "Restaurantes", "Postos de Gasolina", "Estações ferroviárias"],
-  },
-  {
-    icon: Cog,
-    title: "Microméros Machine",
-    desc: "Monitoramento de motores, máquinas e equipamentos industriais, acompanhando rotação, vibração e desempenho operacional.",
-    unit: "RPM",
-    image: machine,
-    applicableSectors: [
-      "Shopping",
-      "Condomínios Residenciais",
-      "Prédios Comerciais",
-      "Hospitais",
-      "Escolas",
-      "Universidades",
-      "Laboratórios",
-      "Indústria",
-      "Saneamento — ETA / ETE",
-      "Infraestrutura — Metrô",
-      "Aeroportos",
-      "Rodovias / Concessionárias",
-      "Túneis",
-      "Portos",
-      "Data Centers / CPDs",
-    ],
-  },
-  {
-    icon: Droplets,
-    title: "Microméros Process",
-    desc: "Monitoramento de variáveis de processo como pH, vazão e condutividade.",
-    unit: "μS",
-    image: process,
-    applicableSectors: ["Shopping", "Hospitais", "Indústria", "Saneamento — ETA / ETE"],
-  },
-  {
-    icon: ThermometerIcon,
-    title: "Microméros Climate",
-    desc: "Monitoramento de temperatura e umidade de áreas.",
-    unit: "C°",
-    image: climate,
-    applicableSectors: [
-      "Shopping",
-      "Condomínios Residenciais",
-      "Prédios Comerciais",
-      "Hospitais",
-      "Escolas",
-      "Universidades",
-      "Laboratórios",
-      "Indústria",
-      "Infraestrutura — Metrô",
-      "Aeroportos",
-      "Rodovias / Concessionárias",
-      "Túneis",
-      "Portos",
-      "Data Centers / CPDs",
-    ],
-  },
-];
 
 export const processSteps = [
   {
@@ -875,7 +747,7 @@ export const companies = {
       },
       {
         id: "vapor",
-        icon: Wind,
+        icon: Flame,
         title: "Vapor",
         shortDescription: "Geração e consumo de vapor.",
         image: "/images/use-cases/industria-vapor.jpg",

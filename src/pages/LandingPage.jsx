@@ -7,12 +7,15 @@ import SectorCard from "../components/SectorCard";
 import StatsBand from "../components/StatsBand";
 import { UseCasesSection } from "../components/useCases";
 import { TrustedClientsSection } from "../components/trustedClients";
+import { AcceleratorsSection } from "../components/AcceleratorsSection";
 import { ProductsSection } from "../components/productsSection";
 import CTA from "../components/CTA";
 import Footer from "../components/Footer";
-import { points, processSteps, sectors } from "../data/landingPage";
+import { processSteps, sectors } from "../data/landingPage";
+import { points } from "../data/points";
 import { useRef, useState } from "react";
 import PointDetail from "../components/PointDetail";
+import { SuccessCasesSection } from "../components/sucessCasesSection";
 
 export default function LandingPage() {
   const [selectedPoint, setSelectedPoint] = useState(null);
@@ -43,10 +46,6 @@ export default function LandingPage() {
             eyebrow="COBERTURA"
             title="Um ponto de atuação para cada tipo de ativo."
           >
-            Cada utilidade tem sua própria física, seus próprios protocolos
-            e suas próprias falhas. Por isso a AS3 não entrega um sensor
-            genérico — entrega instrumentação específica para cada ponto de
-            medição da sua planta.
           </SectionHeader>
 
           {/* Referência para a área dos cards */}
@@ -98,8 +97,8 @@ export default function LandingPage() {
                 eyebrow="METODOLOGIA"
                 title="Uma cadeia, quatro etapas, um só responsável."
               >
-                A AS3 assume a operação de ponta a ponta — do sensor instalado
-                em campo até o alerta que chega para o time responsável — sem
+                A AS3 assume a operação de ponta a ponta integrando o sensor instalado
+                em campo até o alerta que chega para o time responsável sem
                 depender de integradores intermediários.
               </SectionHeader>
 
@@ -112,6 +111,8 @@ export default function LandingPage() {
           </div>
         </section>
         <TrustedClientsSection />
+        <AcceleratorsSection/>
+        <SuccessCasesSection />
 
         {/* Setores */}
         <section id="setores" className="py-[88px]">
@@ -120,9 +121,6 @@ export default function LandingPage() {
               eyebrow="SETORES ATENDIDOS"
               title="Construído para operações que não podem parar."
             >
-              Plantas industriais, concessionárias e grandes operações
-              comerciais confiam à AS3 o monitoramento dos ativos que
-              sustentam sua produção.
             </SectionHeader>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
