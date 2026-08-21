@@ -1,5 +1,5 @@
 import ibmecLogo from '../assets/images/ibmec.svg'
-import preCapLabLogo from '../assets/images/PrecapLab_logo.png'
+import preCapLabLogo from '../assets/images/PreCapLab_logo.png'
 import ylaiLogo from '../assets/images/ylai.png'
 
 const accelerators = [
