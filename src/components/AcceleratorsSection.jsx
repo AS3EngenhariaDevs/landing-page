@@ -8,7 +8,7 @@ const accelerators = [
     logo: ibmecLogo,
     description:
       "Finalistas do IBMEC Hub, fortalecendo a visibilidade da AS3 no ecossistema de inovação e ampliando oportunidades de aceleração e captação de investimentos.",
-  },
+  }, 
   {
     name: "YLai",
     logo: ylaiLogo,
