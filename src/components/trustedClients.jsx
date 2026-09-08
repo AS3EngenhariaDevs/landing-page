@@ -54,7 +54,7 @@ export function TrustedClientsSection() {
               CLIENTES
             </span>
             <h2 className="font-bold tracking-[-0.01em] leading-[1.12] mt-3.5 text-[clamp(28px,3vw,40px)]">
-              Empresas que confiam na gente
+              Empresas que já monitoram suas operações com a AS3
             </h2>
           </div>
           <p className="text-ink-soft text-[15.5px] leading-[1.7] m-0">

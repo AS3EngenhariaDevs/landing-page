@@ -25,7 +25,7 @@ export const points = [
     icon: Zap,
     title: "Microméros Power",
     object: "Monitoramento de Energia",
-    desc: "Monitoramento de consumo de energia em tempo real, com identificação de variações e picos.",
+    desc: "Identifique picos, desvios e consumo fora do horário para reduzir desperdícios e evitar cobranças desnecessárias.",
     unit: "kWh",
     image: power,
     applicableSectors: [
@@ -95,7 +95,7 @@ export const points = [
     icon: Droplet,
     title: "Microméros Flow",
     object: "Monitoramento de Água",
-    desc: "Monitoramento de consumo e vazão de água em tempo real, com detecção de vazamentos.",
+    desc: "Detecte vazamentos e consumos anormais antes que se transformem em desperdício e aumento na conta.",
     unit: "m³ ou L",
     image: flow,
     applicableSectors: [
@@ -164,7 +164,7 @@ export const points = [
     icon: Gauge,
     title: "Microméros Level",
     object: "Monitoramento de Nível",
-    desc: "Monitoramento de nível de líquidos em tanques e reservatórios, com alertas de níveis críticos.",
+    desc: "Evite falta de insumos, transbordamentos e rondas manuais com alertas automáticos de nível.",
     unit: "m³ ou L",
     image: level,
     applicableSectors: [
@@ -212,7 +212,7 @@ export const points = [
     icon: CircuitBoard,
     title: "Microméros Meter",
     object: "Monitoramento de Instrumentação",
-    desc: "Integração de sensores e instrumentos diversos para leitura centralizada de medidas de equipamentos.",
+    desc: "Centralize os dados dos instrumentos que você já possui e acompanhe toda a operação em um único ambiente.",
     unit: "m³, μS e outras unidades",
     image: meter,
     applicableSectors: [
@@ -264,7 +264,7 @@ export const points = [
     icon: Flame,
     title: "Microméros Flux",
     object: "Monitoramento de Gás",
-    desc: "Monitoramento de consumo de gás em tempo real, com identificação de variações e desperdícios.",
+    desc: "Encontre perdas, vazamentos e variações anormais no consumo de gás antes que gerem desperdício e risco.",
     unit: "m³",
     image: Flux,
     applicableSectors: [
@@ -309,7 +309,7 @@ export const points = [
     icon: Cog,
     title: "Microméros Machine",
     object: "Monitoramento de Motores",
-    desc: "Monitoramento de máquinas e motores, com identificação de alterações que indicam falhas ou necessidade de manutenção.",
+    desc: "Antecipe sinais de falha e planeje a manutenção antes que máquinas e motores parem a operação.",
     unit: "RPM",
     image: machine,
     applicableSectors: [
@@ -376,7 +376,7 @@ export const points = [
     icon: Droplets,
     title: "Microméros Process",
     object: "Monitoramento de Processos",
-    desc: "Monitoramento de variáveis de processo como pH, vazão e condutividade.",
+    desc: "Acompanhe pH, vazão e condutividade em tempo real sem depender de registros e verificações manuais.",
     unit: "μS",
     image: process,
     applicableSectors: [
@@ -423,7 +423,7 @@ export const points = [
     icon: ThermometerIcon,
     title: "Microméros Climate",
     object: "Monitoramento de Temperatura",
-    desc: "Monitoramento de temperatura e umidade em tempo real, com alertas de variações fora do padrão.",
+    desc: "Receba alertas antes que temperatura e umidade saiam da faixa e comprometam ambientes, produtos ou equipamentos.",
     unit: "°C",
     image: climate,
     applicableSectors: [
@@ -491,7 +491,7 @@ export const points = [
     icon: BatteryFull,
     title: "Microméros Charge",
     object: "Monitoramento de Bateria",
-    desc: "Monitoramento inteligente de carga e temperatura de bateria.",
+    desc: "Antecipe a degradação de baterias e reduza o risco de falha em sistemas críticos durante quedas de energia.",
     unit: "°C",
     image: charge,
     applicableSectors: [

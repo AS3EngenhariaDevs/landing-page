@@ -7,36 +7,36 @@ export const cases = [
     name: "Quaker Houghton",
     logo: quakerLogo,
     sector: "Indústria",
-    title: "Controle inteligente da operação industrial",
+    title: "Consumos fora do horário transformados em economia",
     description:
-      "Monitoramento de pontos críticos de energia, água e gás para acompanhar o consumo em tempo real, identificar variações e apoiar a redução de desperdícios.",
+      "Mapeamos o consumo de ativos críticos e identificamos equipamentos operando fora dos horários previstos. Com os dados da Microméros, a equipe corrigiu desperdícios e economizou mais de 500 mil kWh.",
     metrics: [
       { value: "20%", label: "Redução de vazamentos" },
-      { value: "500K kWh", label: "Economia de energia" },
+      { value: "500 mil kWh", label: "Energia economizada" },
     ],
   },
   {
     name: "Metrô Rio",
     logo: metrorioLogo,
     sector: "Infraestrutura",
-    title: "Redução de falhas operacionais",
+    title: "45% menos falhas em escadas monitoradas continuamente",
     description:
-      "Monitoramento contínuo das escadas para identificar alterações de funcionamento e antecipar falhas, aumentando a disponibilidade dos equipamentos.",
+      "O monitoramento contínuo identifica alterações no funcionamento das escadas e permite que a equipe atue antes da falha, aumentando a disponibilidade dos equipamentos.",
     metrics: [
-      { value: "10+", label: "Pontos monitorados" },
-      { value: "45%", label: "Redução em falhas" },
+      { value: "10+", label: "Pontos monitorados continuamente" },
+      { value: "45%", label: "Menos falhas operacionais" },
     ],
   },
   {
     name: "Auton",
     logo: autonLogo,
-    sector: "Processo",
-    title: "Monitoramento de vazão de água, pH e condutividade",
+    sector: "Processos",
+    title: "Mais de 400 horas de trabalho manual economizadas",
     description:
-      "Monitoramento de variáveis do processo em tempo real, centralizando os dados e reduzindo a necessidade de acompanhamento manual.",
+      "O monitoramento contínuo de vazão, pH e condutividade centralizou os dados do processo e reduziu o tempo dedicado a leituras, registros e verificações manuais.",
     metrics: [
-      { value: "+3", label: "Ativos monitorados" },
-      { value: "400+", label: "HH evitadas" },
+      { value: "3+", label: "Ativos monitorados" },
+      { value: "400+", label: "Horas de trabalho economizadas" },
     ],
   },
 ];

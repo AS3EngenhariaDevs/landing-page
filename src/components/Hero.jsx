@@ -8,17 +8,17 @@ export default function Hero() {
         <div>
           <span className="inline-flex items-center gap-2 text-[13px] font-semibold tracking-[0.04em] uppercase bg-gray-soft px-4 py-[7px] rounded-full">
             <span className="w-2 h-2 rounded-full bg-lime border-[1.5px] border-ink shrink-0" />
-            PLATAFORMA MICROMÉROS
+            MONITORAMENTO INDUSTRIAL DE UTILIDADES E ATIVOS
           </span>
 
           <h1 className="font-bold tracking-[-0.01em] leading-[1.12] mt-0 text-[clamp(34px,4vw,54px)] max-w-[560px] mt-4">
-            Da painel elétrico ao motor industrial, cobrimos{" "}
-            <span className="hl">todos os pontos</span> do seu ativo.
+            Descubra perdas, desvios e sinais de falha
+            <span className="hl">antes que virem custo ou parada.</span>
           </h1>
 
           <p className="mt-[22px] text-[16.5px] leading-[1.7] text-ink-soft max-w-[460px]">
             A AS3 projeta, instala e opera a cadeia completa de
-            monitoramento do sensor até a nuvem para todos os tipos ativos em ambientes industriais.
+            monitoramento em tempo real do sensor até a nuvem para todos os tipos ativos em ambientes industriais.
           </p>
 
           <div className="flex gap-3.5 mt-[34px] flex-wrap">
