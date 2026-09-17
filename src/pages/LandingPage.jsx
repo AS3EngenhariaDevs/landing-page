@@ -829,7 +829,7 @@ export default function LandingPage() {
               </div>
               <div className="live-value">
                 <div>
-                  <small>Shopping · ponto monitorado</small>
+                  <small>{scenario.local} · ponto monitorado</small>
                   <strong>{scenario.value}</strong>
                 </div>
                 <span>
@@ -1021,9 +1021,11 @@ export default function LandingPage() {
             </p>
             <a
               className="contact-button"
-              href="mailto:comercial@as3group.com?subject=Quero%20monitorar%20minha%20opera%C3%A7%C3%A3o%20com%20o%20Microm%C3%A9ros"
+              href="https://wa.me/5521983620774?text=Ol%C3%A1%2C%20quero%20uma%20avalia%C3%A7%C3%A3o%20gratuita%20do%20Microm%C3%A9ros%20na%20minha%20empresa%21"
+              target="_blank"
+              rel="noreferrer"
             >
-              Quero enxergar minha operação <ArrowRight />
+              Quero uma avaliação gratuita <ArrowRight />
             </a>
             <div className="email-row">
               <a href="mailto:comercial@as3group.com">comercial@as3group.com</a>

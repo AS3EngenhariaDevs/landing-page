@@ -21,8 +21,8 @@ export const monitoring = [
   { title: "Energia", text: "Descubra onde e quando a energia é consumida.", meta: "Consumo, demanda e indicadores de custo", image: power },
   { title: "Máquinas", text: "Perceba mudanças e direcione a manutenção.", meta: "Temperatura, vibração, corrente e horas", image: process },
   { title: "Nível", text: "Saiba quanto ainda há no tanque ou reservatório.", meta: "Reservatórios, tanques e silos", image: level },
-  { title: "Gás", text: "Acompanhe o consumo e investigue desvios.", meta: "Consumo, pressão e vazão", image: meter },
-  { title: "Instrumentação", text: "Traga os instrumentos que você já tem para a mesma plataforma.", meta: "Sensores existentes, pulso, 4–20 mA e Modbus", image: flux },
+  { title: "Instrumentação", text: "Traga os instrumentos que você já tem para a mesma plataforma.", meta: "Sensores existentes, pulso, 4–20 mA e Modbus", image: meter },
+  { title: "Gás", text: "Acompanhe o consumo e investigue desvios.", meta: "Consumo, pressão e vazão", image: flux },
 ];
 
 export const segments = [
@@ -42,11 +42,11 @@ export const agentQuestions = [
 ];
 
 export const scenarios = [
-  { name: "Água", title: "O shopping fechou. A água continua correndo.", value: "120 L/h", description: "O sensor registra o consumo daquele ponto. O histórico mostra que a água continua sendo utilizada após o fechamento.", image: flow },
-  { name: "Energia", title: "O turno terminou. A demanda continua alta.", value: "42 kW", description: "A medição evidencia uma carga fora do horário previsto e ajuda a equipe a localizar o consumo desnecessário.", image: power },
-  { name: "Gás", title: "O consumo mudou sem explicação.", value: "18 m³/h", description: "A curva histórica destaca o desvio e direciona a inspeção para o ponto correto da instalação.", image: meter },
-  { name: "Nível", title: "O reservatório está baixando rápido demais.", value: "31%", description: "O acompanhamento contínuo mostra a velocidade da queda e permite agir antes de faltar abastecimento.", image: level },
-  { name: "Máquinas", title: "Uma mudança pequena pode antecipar uma parada.", value: "8,4 mm/s", description: "Vibração e temperatura ficam visíveis no histórico para orientar a manutenção do equipamento.", image: machine },
+  { name: "Água", local: "Shoppings",title: "O shopping fechou. A água continua correndo.", value: "120 L/h", description: "O sensor registra o consumo daquele ponto. O histórico mostra que a água continua sendo utilizada após o fechamento.", image: flow },
+  { name: "Energia", local: "Substações", title: "O turno terminou. A demanda continua alta.", value: "42 kW", description: "A medição evidencia uma carga fora do horário previsto e ajuda a equipe a localizar o consumo desnecessário.", image: power },
+  { name: "Gás", local: "Indústrias químicas", title: "O consumo mudou sem explicação.", value: "18 m³/h", description: "A curva histórica destaca o desvio e direciona a inspeção para o ponto correto da instalação.", image: meter },
+  { name: "Nível", local: "Condominios residenciais", title: "O reservatório está baixando rápido demais.", value: "31%", description: "O acompanhamento contínuo mostra a velocidade da queda e permite agir antes de faltar abastecimento.", image: level },
+  { name: "Máquinas", local: "Estações de Metrô", title: "Uma mudança pequena pode antecipar uma parada.", value: "8,4 mm/s", description: "Vibração e temperatura ficam visíveis no histórico para orientar a manutenção do equipamento.", image: machine },
 ];
 
 export const faqs = [

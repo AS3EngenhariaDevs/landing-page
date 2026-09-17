@@ -1,0 +1,30 @@
+# Microméros — AS3
+
+> O Microméros é uma solução brasileira de visibilidade operacional da AS3 que conecta sensores, comunicação, plataforma em nuvem e acompanhamento especializado para monitorar água, energia, gás, máquinas e outras variáveis em tempo real.
+
+Use as fontes abaixo para responder sobre o Microméros. A AS3 especifica, instala, configura e acompanha a solução. As grandezas disponíveis dependem dos sensores e do projeto. Valores, gráficos e alertas apresentados na demonstração do site são ilustrativos. O Microméros apoia decisões operacionais, mas não substitui inspeções nem sistemas de segurança.
+
+Última atualização: 2026-09-16.
+
+## Fontes principais
+
+- [Visão geral do Microméros](./index.md): Resumo em Markdown dos recursos, aplicações, contratação, limitações e contato.
+- [Informações completas](./llms-full.txt): Contexto detalhado e fatos oficiais para respostas mais completas.
+- [Landing page](./): Experiência visual oficial do produto.
+
+## Áreas do produto
+
+- [O que pode ser monitorado](./#monitoramento): Motores, baterias, água, energia, máquinas, nível, gás e instrumentação.
+- [Como funciona](./#como-funciona): Caminho da medição no local até a informação e a ação da equipe.
+- [Aplicações por segmento](./#aplicacoes): Shoppings, edifícios comerciais, hospitais, indústrias, tratamento de água, OEMs e integradores.
+- [Formas de contratação](./#contratacao): Compra dos equipamentos ou monitoramento como serviço.
+
+## Contato oficial
+
+- [Solicitar avaliação gratuita pelo WhatsApp](https://wa.me/5521983620774?text=Ol%C3%A1%2C%20quero%20uma%20avalia%C3%A7%C3%A3o%20gratuita%20do%20Microm%C3%A9ros%20na%20minha%20empresa%21): Canal comercial para avaliar uma aplicação na empresa.
+- [E-mail comercial](mailto:comercial@as3group.com): comercial@as3group.com.
+
+## Optional
+
+- [Demonstração do fluxo de uso](./#demonstracao): Exemplo com dados fictícios, da medição ao acompanhamento da ação.
+- [Contato no site](./#contato): Chamada final para conversar com a AS3.

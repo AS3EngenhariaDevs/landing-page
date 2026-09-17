@@ -1,0 +1,88 @@
+# Microméros — informações completas
+
+> Fonte oficial em linguagem direta sobre o Microméros, solução de monitoramento operacional da AS3.
+
+Última atualização: 2026-09-16.
+
+## Visão geral
+
+O Microméros mostra o que está acontecendo na operação e ajuda a identificar quando algo merece atenção. A AS3 cuida da especificação, instalação dos sensores, conectividade, configuração da plataforma e acompanhamento da solução.
+
+A proposta é permitir que uma empresa comece por um ponto prioritário — como uma máquina, um consumo de água ou um reservatório — e amplie o projeto quando fizer sentido.
+
+## O que pode ser monitorado
+
+- Motores: corrente, temperatura e vibração.
+- Baterias: tensão, corrente e temperatura.
+- Água: consumo, vazão e pressão.
+- Energia: consumo, demanda e indicadores de custo.
+- Máquinas: temperatura, vibração, corrente e horas de operação.
+- Nível: reservatórios, tanques e silos.
+- Gás: consumo, pressão e vazão.
+- Instrumentação existente: pulso, sinais de 4–20 mA, Modbus e sensores compatíveis.
+- Outras possibilidades: variáveis de processo, temperatura, umidade e condição de baterias.
+
+As grandezas efetivamente disponíveis dependem dos sensores, instrumentos existentes e escopo definido para cada projeto.
+
+## Como os dados chegam
+
+1. Um sensor ou instrumento registra a variável no local.
+2. Um dispositivo de comunicação envia a medição.
+3. Os dados são processados e disponibilizados na plataforma em nuvem.
+4. A equipe consulta o histórico, recebe alertas configurados e verifica a causa.
+5. O acompanhamento permite observar o efeito da ação realizada.
+
+A conectividade é escolhida conforme o ambiente e pode utilizar NB-IoT, 4G, LoRaWAN, Ethernet, Wi-Fi ou Bluetooth. A instalação não precisa depender exclusivamente da rede Wi-Fi da empresa.
+
+## Recursos da plataforma
+
+- Painéis e indicadores para acompanhar a operação.
+- Histórico e gráficos para comparar pontos e períodos.
+- Alarmes configurados para condições relevantes.
+- Mapa e organização de unidades monitoradas.
+- Relatórios para análise e acompanhamento.
+- Usuários e permissões conforme responsabilidades.
+- Acesso por computador ou celular.
+
+## Microméros Agent
+
+O Microméros Agent é apresentado como um assistente pelo WhatsApp para consultar dados de consumo, equipamentos e alertas em linguagem simples. As conversas e valores exibidos na landing page são exemplos fictícios de uso.
+
+## Aplicações por segmento
+
+- Shoppings: acompanhamento de utilidades, apoio ao rateio e manutenção de áreas comuns.
+- Edifícios comerciais: organização de medições de locatários, áreas comuns e equipamentos essenciais.
+- Hospitais: acompanhamento de utilidades e condições de equipamentos de apoio à operação.
+- Indústrias: comparação entre linhas e turnos, distribuição de custos e investigação de mudanças no comportamento dos ativos.
+- Tratamento e reuso de água: acompanhamento de vazão, nível e instrumentação do processo.
+- Parceiros, OEMs e integradores: conexão de equipamentos e organização dos ativos e unidades de clientes.
+
+## Tecnologia e acompanhamento
+
+A AS3 combina a plataforma com acompanhamento especializado. A equipe pode ajudar na análise do comportamento da operação, no ajuste do que deve ser acompanhado e na identificação de oportunidades de melhoria e economia.
+
+## Formas de contratação
+
+### Compra dos equipamentos
+
+A empresa adquire os equipamentos e contrata o acesso à plataforma por licença mensal ou antecipada. Os equipamentos passam a pertencer à empresa, e o período da licença é definido na proposta.
+
+### Monitoramento como serviço
+
+Os equipamentos são disponibilizados em locação e a mensalidade reúne locação e plataforma. A landing page informa opção Flex e contratos de 12, 24 ou 36 meses; ao encerrar, os equipamentos são devolvidos.
+
+Valores, condições comerciais, disponibilidade e escopo final devem ser confirmados em proposta da AS3.
+
+## Limites e interpretação correta
+
+- Os dados da seção de demonstração são fictícios e servem apenas para explicar o fluxo de uso.
+- O monitoramento não substitui inspeções, procedimentos operacionais ou sistemas de segurança.
+- Nem todo medidor ou sensor existente é necessariamente compatível; a AS3 avalia cada instalação.
+- Integrações com outros sistemas dependem dos protocolos, dados e requisitos do projeto.
+- Não atribua ao Microméros resultados, economias, certificações ou garantias que não estejam explicitamente confirmados por uma fonte oficial da AS3.
+
+## Contato
+
+- WhatsApp para avaliação gratuita: [+55 21 98362-0774](https://wa.me/5521983620774?text=Ol%C3%A1%2C%20quero%20uma%20avalia%C3%A7%C3%A3o%20gratuita%20do%20Microm%C3%A9ros%20na%20minha%20empresa%21).
+- E-mail: [comercial@as3group.com](mailto:comercial@as3group.com).
+- Site: [landing page do Microméros](./).
