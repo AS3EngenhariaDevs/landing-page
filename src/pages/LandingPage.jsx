@@ -43,6 +43,7 @@ import dashboardsImage from "../assets/images/micromeros-dashboards.png";
 import unseenLeakImage from "../assets/images/problem-unseen-leak-v2.png";
 import lateMaintenanceImage from "../assets/images/problem-late-maintenance-v2.png";
 import scatteredRecordsImage from "../assets/images/problem-scattered-records-v2.png";
+import micromerosLogo from "../assets/logos/micromerosLogo.png"
 
 import { monitoring } from "../data/pageData";
 import { scenarios } from "../data/pageData";
@@ -98,7 +99,12 @@ function Brand({ light = false }) {
       <span className="brand__logo-crop">
         <img src={as3Logo} alt="AS3" />
       </span>
-      <span className="brand__product">Microméros</span>
+
+      <span className="brand__divider" />
+
+      <span className="brand__logo-micromeros">
+        <img src={micromerosLogo} alt="Microméros" />
+      </span>
     </a>
   );
 }
@@ -263,6 +269,9 @@ export default function LandingPage() {
           </nav>
           <a className="header-cta" href="#contato">
             Fale com a AS3 <ArrowRight size={15} />
+          </a>
+          <a className="platform-cta" href="http://app.micromeros.com.br/">
+            Acessar a plataforma <ArrowRight size={15} />
           </a>
           <button
             className="menu-button"
