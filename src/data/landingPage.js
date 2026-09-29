@@ -3,7 +3,7 @@ import charge from "../assets/images/points/charge.png";
 import flow from "../assets/images/points/flow.png";
 import flux from "../assets/images/points/flux.jpeg";
 import level from "../assets/images/points/level.png";
-import machine from "../assets/images/points/machine.png";
+import engine from "../assets/images/points/engine.png";
 import meter from "../assets/images/points/meter.png";
 import power from "../assets/images/points/power.jpeg";
 import process from "../assets/images/points/process.png";
@@ -28,7 +28,7 @@ import lateMaintenanceImage from "../assets/images/problem-late-maintenance-v2.p
 import scatteredRecordsImage from "../assets/images/problem-scattered-records-v2.png";
 
 export const monitoring = [
-  { title: "Motores", text: "Acompanhe sinais que orientam a manutenção.", meta: "Corrente, temperatura e vibração", image: machine },
+  { title: "Motores", text: "Acompanhe sinais que orientam a manutenção.", meta: "Corrente, temperatura e vibração", image: engine },
   { title: "Baterias", text: "Identifique mudanças na condição da alimentação.", meta: "Tensão, corrente e temperatura", image: charge },
   { title: "Água", text: "Veja o consumo e encontre sinais de vazamento.", meta: "Consumo, vazão e pressão", image: flow },
   { title: "Energia", text: "Descubra onde e quando a energia é consumida.", meta: "Consumo, demanda e indicadores de custo", image: power },
@@ -59,7 +59,7 @@ export const scenarios = [
   { name: "Energia", local: "Substações", title: "O turno terminou. A demanda continua alta.", value: "42 kW", description: "A medição evidencia uma carga fora do horário previsto e ajuda a equipe a localizar o consumo desnecessário.", image: power },
   { name: "Gás", local: "Indústrias químicas", title: "O consumo mudou sem explicação.", value: "18 m³/h", description: "A curva histórica destaca o desvio e direciona a inspeção para o ponto correto da instalação.", image: meter },
   { name: "Nível", local: "Condominios residenciais", title: "O reservatório está baixando rápido demais.", value: "31%", description: "O acompanhamento contínuo mostra a velocidade da queda e permite agir antes de faltar abastecimento.", image: level },
-  { name: "Máquinas", local: "Estações de Metrô", title: "Uma mudança pequena pode antecipar uma parada.", value: "8,4 mm/s", description: "Vibração e temperatura ficam visíveis no histórico para orientar a manutenção do equipamento.", image: machine },
+  { name: "Máquinas", local: "Estações de Metrô", title: "Uma mudança pequena pode antecipar uma parada.", value: "8,4 mm/s", description: "Vibração e temperatura ficam visíveis no histórico para orientar a manutenção do equipamento.", image: engine },
 ];
 
 export const faqs = [
